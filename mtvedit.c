@@ -645,9 +645,12 @@ int main (int argv, char **argc)
 		case CTRL ('V'):
 			k_moveblock ();
 			break;
-		case CTRL ('S'):
+
+		//case CTRL ('S'):
+		case KEY_F(2):
 			k_save ();
 			break;
+
 		case CTRL ('F'):
 			k_find ();
 			break;
